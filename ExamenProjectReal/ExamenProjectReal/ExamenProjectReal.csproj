@@ -41,9 +41,20 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Game1.cs" />
+    <Compile Include="Bat.cs" />
+    <Compile Include="Characters.cs" />
+    <Compile Include="DemonFlower.cs" />
+    <Compile Include="GameWorld.cs" />
+    <Compile Include="Hayo.cs" />
+    <Compile Include="Hornet.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="Mage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rogue.cs" />
+    <Compile Include="Sangshi.cs" />
+    <Compile Include="Scorpion.cs" />
+    <Compile Include="Warrior.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
