@@ -8,5 +8,11 @@ namespace ExamenProjectReal
 {
     class MapScreen : GameScreen
     {
+
+        public void StartEncounter()
+        {
+
+        }
+
     }
 }

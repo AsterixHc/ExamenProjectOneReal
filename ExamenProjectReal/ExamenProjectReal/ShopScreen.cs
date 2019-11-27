@@ -8,5 +8,11 @@ namespace ExamenProjectReal
 {
     class ShopScreen: GameScreen
     {
+
+        public void PurchaseItem()
+        {
+
+        }
+
     }
 }

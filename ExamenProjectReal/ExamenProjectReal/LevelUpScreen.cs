@@ -8,5 +8,11 @@ namespace ExamenProjectReal
 {
     class LevelUpScreen : GameScreen
     {
+
+        public void IncreaseStat()
+        {
+
+        }
+
     }
 }

@@ -8,5 +8,9 @@ namespace ExamenProjectReal
 {
     class BattleScreen : GameScreen
     {
+
+        private int expValue;
+
+        public int ExpValue { get => expValue; }
     }
 }
