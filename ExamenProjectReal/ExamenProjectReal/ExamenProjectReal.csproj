@@ -60,6 +60,7 @@
     <Compile Include="Rogue.cs" />
     <Compile Include="Sangshi.cs" />
     <Compile Include="Scorpion.cs" />
+    <Compile Include="ScreenManager.cs" />
     <Compile Include="StatUp.cs" />
     <Compile Include="Warrior.cs" />
   </ItemGroup>
