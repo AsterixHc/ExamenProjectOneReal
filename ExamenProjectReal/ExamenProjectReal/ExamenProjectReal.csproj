@@ -46,12 +46,14 @@
     <Compile Include="Characters.cs" />
     <Compile Include="DemonFlower.cs" />
     <Compile Include="Elixir.cs" />
+    <Compile Include="GameScreen.cs" />
     <Compile Include="GameWorld.cs" />
     <Compile Include="Hayo.cs" />
     <Compile Include="Hornet.cs" />
     <Compile Include="IPlayable.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="Mage.cs" />
+    <Compile Include="MapScreen.cs" />
     <Compile Include="PhoenixDown.cs" />
     <Compile Include="Potion.cs" />
     <Compile Include="Program.cs" />
