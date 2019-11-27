@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Bat : Characters
+    class BattleScreen : GameScreen
     {
+
+        private int expValue;
+
+        public int ExpValue { get => expValue; }
     }
 }

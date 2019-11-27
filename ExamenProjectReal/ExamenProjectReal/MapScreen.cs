@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Bat : Characters
+    class MapScreen : GameScreen
     {
+
+        public void StartEncounter()
+        {
+
+        }
+
     }
 }
