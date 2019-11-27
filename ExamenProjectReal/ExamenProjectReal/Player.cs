@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Player
+    class Player: GameObject
     {
-        //Hej
-        //bob
     }
 }

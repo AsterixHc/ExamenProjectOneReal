@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class ShopScreen
+    class ShopScreen: GameScreen
     {
     }
 }

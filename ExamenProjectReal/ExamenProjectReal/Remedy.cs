@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Remedy
+    class Remedy : Item
     {
     }
 }

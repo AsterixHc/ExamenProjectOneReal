@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class LevelUpScreen
+    class LevelUpScreen : GameScreen
     {
     }
 }
