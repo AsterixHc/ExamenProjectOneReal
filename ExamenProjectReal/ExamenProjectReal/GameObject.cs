@@ -10,15 +10,32 @@ using Microsoft.Xna.Framework.Content;
 
 namespace ExamenProjectReal
 {
-    class Player: GameObject
+    class GameObject
     {
 
-        private int gold;
-
-        public void HandleInput()
+        public GameObject()
         {
 
         }
 
+        public void LoadContent(ContentManager content)
+        {
+
+        }
+
+        public void UnloadContent()
+        {
+
+        }
+
+        public void Update(GameTime gameTime)
+        {
+
+        }
+
+        public void Draw(SpriteBatch spriteBatch)
+        {
+
+        }
     }
 }

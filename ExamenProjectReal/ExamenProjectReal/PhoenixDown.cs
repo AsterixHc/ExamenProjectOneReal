@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class PhoenixDown
+    class PhoenixDown : Item
     {
+
+        int health;
+
+        void test()
+        {
+
+            if(true)
+            {
+                health--;
+            }
+
+        }
+
     }
 }

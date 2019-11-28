@@ -43,16 +43,22 @@
   <ItemGroup>
     <Compile Include="Antidote.cs" />
     <Compile Include="Bat.cs" />
+    <Compile Include="BattleScreen.cs" />
     <Compile Include="Characters.cs" />
     <Compile Include="DemonFlower.cs" />
     <Compile Include="Elixir.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="GameScreen.cs" />
     <Compile Include="GameWorld.cs" />
     <Compile Include="Hayo.cs" />
     <Compile Include="Hornet.cs" />
-    <Compile Include="IPlayable.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="LevelUpScreen.cs" />
     <Compile Include="Mage.cs" />
+    <Compile Include="MapScreen.cs" />
+    <Compile Include="MenuScreen.cs" />
     <Compile Include="PhoenixDown.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Potion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,6 +66,8 @@
     <Compile Include="Rogue.cs" />
     <Compile Include="Sangshi.cs" />
     <Compile Include="Scorpion.cs" />
+    <Compile Include="ScreenManager.cs" />
+    <Compile Include="ShopScreen.cs" />
     <Compile Include="StatUp.cs" />
     <Compile Include="Warrior.cs" />
   </ItemGroup>

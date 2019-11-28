@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    interface IPlayable
+    class LevelUpScreen : GameScreen
     {
+
+        public void IncreaseStat()
+        {
+
+        }
+
     }
 }
