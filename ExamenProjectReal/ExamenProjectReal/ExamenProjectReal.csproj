@@ -52,7 +52,6 @@
     <Compile Include="GameWorld.cs" />
     <Compile Include="Hayo.cs" />
     <Compile Include="Hornet.cs" />
-    <Compile Include="IPlayable.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="LevelUpScreen.cs" />
     <Compile Include="Mage.cs" />

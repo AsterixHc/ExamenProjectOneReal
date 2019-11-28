@@ -25,28 +25,21 @@ namespace ExamenProjectReal
 
         protected bool ranged;
 
-        public void Attack()
+        public abstract void Attack();
+
+        public abstract void SpecialAttack();
+        
+        public virtual void Flee()
         {
 
         }
 
-        public void SpecialAttack()
+        public virtual void UseItem(Item item)
         {
 
         }
 
-
-        void Flee()
-        {
-
-        }
-
-        void UseItem(Item item)
-        {
-
-        }
-
-        void LevelUp()
+        public virtual void LevelUp()
         {
 
         }

@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
+    public enum ItemEffect { Heal }
+
     class Item: GameObject
     {
+
+        protected int price;
+
+        protected ItemEffect effect;
+
     }
 }

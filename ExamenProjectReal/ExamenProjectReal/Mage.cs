@@ -6,7 +6,33 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Mage : Characters, IPlayable
+    class Mage : Characters
     {
+
+        public override void Attack()
+        {
+            
+        }
+
+        public override void SpecialAttack()
+        {
+            
+        }
+
+        public override void LevelUp()
+        {
+            
+        }
+
+        public override void Flee()
+        {
+            
+        }
+
+        public override void UseItem(Item item)
+        {
+            
+        }
+
     }
 }
