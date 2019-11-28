@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Elixir
+    class Elixir: Item
     {
     }
 }

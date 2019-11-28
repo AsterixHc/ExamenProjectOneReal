@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class PhoenixDown : Item
+    class Player: GameObject
     {
-        ///Mikkels kommentar
     }
 }

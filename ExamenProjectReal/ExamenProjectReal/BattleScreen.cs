@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class PhoenixDown : Item
+    class BattleScreen : GameScreen
     {
-        ///Mikkels kommentar
+
+        private int expValue;
+
+        public int ExpValue { get => expValue; }
     }
 }

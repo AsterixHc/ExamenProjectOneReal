@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class PhoenixDown : Item
+    static class ScreenManager
     {
-        ///Mikkels kommentar
     }
 }

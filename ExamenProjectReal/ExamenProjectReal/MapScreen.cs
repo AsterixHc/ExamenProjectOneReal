@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class PhoenixDown : Item
+    class MapScreen : GameScreen
     {
-        ///Mikkels kommentar
+
+        public void StartEncounter()
+        {
+
+        }
+
     }
 }
