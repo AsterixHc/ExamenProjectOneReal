@@ -13,11 +13,6 @@ namespace ExamenProjectReal
     interface IPlayable
     {
 
-        void Flee();
-
-        void UseItem(Item item);
-
-        void LevelUp();
 
     }
 }

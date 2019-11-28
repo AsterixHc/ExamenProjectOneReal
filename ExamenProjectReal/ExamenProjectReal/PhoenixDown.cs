@@ -8,5 +8,18 @@ namespace ExamenProjectReal
 {
     class PhoenixDown : Item
     {
+
+        int health;
+
+        void test()
+        {
+
+            if(true)
+            {
+                health--;
+            }
+
+        }
+
     }
 }

@@ -10,7 +10,7 @@ using Microsoft.Xna.Framework.Content;
 
 namespace ExamenProjectReal
 {
-    class Characters: GameObject
+    abstract class Characters: GameObject
     {
 
         protected Random rnd;
@@ -31,6 +31,22 @@ namespace ExamenProjectReal
         }
 
         public void SpecialAttack()
+        {
+
+        }
+
+
+        void Flee()
+        {
+
+        }
+
+        void UseItem(Item item)
+        {
+
+        }
+
+        void LevelUp()
         {
 
         }
