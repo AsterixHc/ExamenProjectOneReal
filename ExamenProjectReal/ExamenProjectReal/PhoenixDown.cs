@@ -8,7 +8,9 @@ namespace ExamenProjectReal
 {
     class PhoenixDown : Item
     {
-        ///Mikkels kommentar
-        ///Magnus kommentar
+
+        //Set player == alive
+        //Set Health to 40
+
     }
 }
