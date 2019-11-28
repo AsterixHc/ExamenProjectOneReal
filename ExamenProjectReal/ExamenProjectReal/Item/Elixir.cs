@@ -6,18 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class DemonFlower : Characters
+    class Elixir: Item
     {
-
-        public override void Attack()
-        {
-
-        }
-
-        public override void SpecialAttack()
-        {
-
-        }
-
+        //If Health or Mana is low
+        //Restore Health and Mana to Full
     }
 }

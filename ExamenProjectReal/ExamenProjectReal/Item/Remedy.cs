@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Potion : Item
+    class Remedy : Item
     {
+        //If Player is under any negative status effects
+        //Clear negative status effects from Player
     }
 }

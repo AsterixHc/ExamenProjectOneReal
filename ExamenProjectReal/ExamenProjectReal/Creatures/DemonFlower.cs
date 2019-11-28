@@ -6,33 +6,24 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Rogue : Characters
+    class DemonFlower : Characters
     {
 
         public override void Attack()
         {
-
+            //Attack at random against Player
         }
 
         public override void SpecialAttack()
         {
-
+            //Applies Posien cloud
+            //apply poisen
         }
 
-        public override void LevelUp()
+        public override bool TakeDamage(int dmg)
         {
-
+            //Reduce currentHealth by damage amount
+            throw new NotImplementedException();
         }
-
-        public override void Flee()
-        {
-
-        }
-
-        public override void UseItem(Item item)
-        {
-
-        }
-
     }
 }

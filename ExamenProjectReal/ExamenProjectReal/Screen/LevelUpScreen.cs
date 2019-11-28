@@ -6,19 +6,12 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class PhoenixDown : Item
+    class LevelUpScreen : GameScreen
     {
 
-        int health;
-
-        void test()
+        public void IncreaseStat()
         {
-
-            if(true)
-            {
-                health--;
-            }
-
+            //Select Stats to Increase
         }
 
     }

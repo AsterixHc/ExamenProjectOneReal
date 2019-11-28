@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class MapScreen : GameScreen
+    class Antidote : Item
     {
-
-        public void StartEncounter()
-        {
-
-        }
-
+        //If Player is Poisened
+        //Remove Poisen
     }
 }

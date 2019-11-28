@@ -6,17 +6,12 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Bat : Characters
+    class MapScreen : GameScreen
     {
 
-        public override void Attack()
+        public void StartEncounter()
         {
-            
-        }
-
-        public override void SpecialAttack()
-        {
-            
+            //Select Encounter using Mouse/Keyboard
         }
 
     }

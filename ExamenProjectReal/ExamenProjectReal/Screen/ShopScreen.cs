@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class LevelUpScreen : GameScreen
+    class ShopScreen: GameScreen
     {
 
-        public void IncreaseStat()
+        public void PurchaseItem()
         {
-
+            //List of Items
         }
 
     }

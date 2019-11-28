@@ -8,5 +8,6 @@ namespace ExamenProjectReal
 {
     class StatUp : Item
     {
+        //Increasing stats (To be determined)
     }
 }

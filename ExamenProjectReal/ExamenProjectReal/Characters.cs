@@ -17,7 +17,8 @@ namespace ExamenProjectReal
 
         protected Vector2 position;
 
-        protected int health;
+        protected int maxHealth;
+        protected int currnetHealth;
         protected int mana;
         protected int strenght;
         protected int agility;
@@ -25,9 +26,11 @@ namespace ExamenProjectReal
 
         protected bool ranged;
 
-        public abstract void Attack();
+        public abstract void Attack(); 
 
         public abstract void SpecialAttack();
+
+        public abstract bool TakeDamage(int dmg);
         
         public virtual void Flee()
         {

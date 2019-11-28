@@ -11,13 +11,19 @@ namespace ExamenProjectReal
 
         public override void Attack()
         {
-
+            //Attack at random against Player
         }
 
         public override void SpecialAttack()
         {
-
+            //If killed set Health to full
+            //If any Ally is alive keep revive
         }
 
+        public override bool TakeDamage(int dmg)
+        {
+            //Reduce currentHealth by damage amount
+            throw new NotImplementedException();
+        }
     }
 }

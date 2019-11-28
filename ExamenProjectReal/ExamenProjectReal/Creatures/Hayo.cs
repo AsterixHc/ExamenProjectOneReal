@@ -11,13 +11,19 @@ namespace ExamenProjectReal
 
         public override void Attack()
         {
-
+            //Attack at random against Player
         }
 
         public override void SpecialAttack()
         {
-
+            //Random chance to Apply "Gust"
+            //If applied reduce Player Agility
         }
 
+        public override bool TakeDamage(int dmg)
+        {
+            //Reduce currentHealth by damage amount
+            throw new NotImplementedException();
+        }
     }
 }
