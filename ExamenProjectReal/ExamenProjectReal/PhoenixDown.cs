@@ -11,14 +11,6 @@ namespace ExamenProjectReal
 
         //Set player == alive
         //Set Health to 40
-        int health;
-        void test()
-        {
-            if (true)
-            {
-                health++;
-            }
-        }
 
     }
 }
