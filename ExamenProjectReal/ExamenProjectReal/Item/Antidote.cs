@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class StatUp : Item
+    class Antidote : Item
     {
+        //If Player is Poisened
+        //Remove Poisen
     }
 }

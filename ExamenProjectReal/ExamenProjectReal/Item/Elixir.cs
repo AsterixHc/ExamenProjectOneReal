@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Remedy : Item
+    class Elixir: Item
     {
+        //If Health or Mana is low
+        //Restore Health and Mana to Full
     }
 }

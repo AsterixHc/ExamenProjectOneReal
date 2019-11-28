@@ -6,33 +6,24 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Rogue : Characters
+    class Hornet : Characters
     {
 
         public override void Attack()
         {
-
+            //Attack at random against Player
         }
 
         public override void SpecialAttack()
         {
-
+            //Random% chance to paralyze Player
+            //Apply paralyze
         }
 
-        public override void LevelUp()
+        public override bool TakeDamage(int dmg)
         {
-
+            //Reduce currentHealth by damage amount
+            throw new NotImplementedException();
         }
-
-        public override void Flee()
-        {
-
-        }
-
-        public override void UseItem(Item item)
-        {
-
-        }
-
     }
 }

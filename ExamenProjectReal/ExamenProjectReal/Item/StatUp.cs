@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class ShopScreen: GameScreen
+    class StatUp : Item
     {
-
-        public void PurchaseItem()
-        {
-
-        }
-
+        //Increasing stats (To be determined)
     }
 }

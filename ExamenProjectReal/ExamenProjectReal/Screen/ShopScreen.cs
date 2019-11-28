@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Potion : Item
+    class ShopScreen: GameScreen
     {
+
+        public void PurchaseItem()
+        {
+            //List of Items
+        }
+
     }
 }

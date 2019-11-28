@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class LevelUpScreen : GameScreen
+    class PhoenixDown : Item
     {
-
-        public void IncreaseStat()
-        {
-
-        }
-
+        //If Player is dead
+        //Revive Player at 40% Health
     }
 }

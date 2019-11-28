@@ -6,19 +6,12 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class PhoenixDown : Item
+    class MapScreen : GameScreen
     {
 
-        int health;
-
-        void test()
+        public void StartEncounter()
         {
-
-            if(true)
-            {
-                health--;
-            }
-
+            //Select Encounter using Mouse/Keyboard
         }
 
     }
