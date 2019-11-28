@@ -6,24 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class PhoenixDown : Item
+    class PhoenixDown
     {
-
-        //Set player == alive
-        //Set Health to 40
-
-        int health;
-
-        void test()
-        {
-
-            if(true)
-            {
-                health--;
-            }
-
-        }
-
-
     }
 }

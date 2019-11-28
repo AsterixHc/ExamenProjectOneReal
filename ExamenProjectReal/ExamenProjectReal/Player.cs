@@ -3,22 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Content;
 
 namespace ExamenProjectReal
 {
-    class Player: GameObject
+    class Player
     {
-
-        private int gold;
-
-        public void HandleInput()
-        {
-
-        }
-
+        //Hej
+        //bob
     }
 }

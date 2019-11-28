@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Elixir : Item
+    class Elixir
     {
-        //Set health == 100
     }
 }

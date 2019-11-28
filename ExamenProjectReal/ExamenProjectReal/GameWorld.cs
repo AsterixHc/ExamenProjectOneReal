@@ -1,7 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Content;
 
 namespace ExamenProjectReal
 {
@@ -12,7 +11,6 @@ namespace ExamenProjectReal
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        ContentManager content;
 
         public GameWorld()
         {
@@ -85,11 +83,6 @@ namespace ExamenProjectReal
             // TODO: Add your drawing code here
 
             base.Draw(gameTime);
-        }
-
-        public void Instantiate(ContentManager content)
-        {
-
         }
     }
 }

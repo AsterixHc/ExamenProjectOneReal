@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Warrior: Characters, IPlayable
+    class Warrior
     {
     }
 }
