@@ -8,5 +8,16 @@ namespace ExamenProjectReal
 {
     class Hayo : Characters
     {
+
+        public override void Attack()
+        {
+
+        }
+
+        public override void SpecialAttack()
+        {
+
+        }
+
     }
 }

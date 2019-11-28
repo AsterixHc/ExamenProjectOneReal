@@ -8,5 +8,16 @@ namespace ExamenProjectReal
 {
     class Hornet : Characters
     {
+
+        public override void Attack()
+        {
+
+        }
+
+        public override void SpecialAttack()
+        {
+
+        }
+
     }
 }

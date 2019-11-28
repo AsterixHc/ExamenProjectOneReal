@@ -8,5 +8,16 @@ namespace ExamenProjectReal
 {
     class Scorpion : Characters
     {
+
+        public override void Attack()
+        {
+
+        }
+
+        public override void SpecialAttack()
+        {
+
+        }
+
     }
 }
