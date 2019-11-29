@@ -29,7 +29,7 @@ namespace ExamenProjectReal
         /// </summary>
         public static void Initialize()
         {
-            currentScreen = new MenuScreen();
+            currentScreen = new BattleScreen();
         }
 
         /// <summary>

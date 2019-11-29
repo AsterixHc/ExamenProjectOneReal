@@ -16,7 +16,7 @@ namespace ExamenProjectReal
     /// </summary>
     class MenuScreen : GameScreen
     {
-        //Background image for the splash screen.
+        //Background image for the menu screen.
         private Texture2D background;
         //Path to the background image.
         private string path = "MenuScreen/Background";
@@ -42,6 +42,7 @@ namespace ExamenProjectReal
 
         public override void Update(GameTime gameTime)
         {
+
         }
 
         public override void Draw(SpriteBatch spriteBatch)
