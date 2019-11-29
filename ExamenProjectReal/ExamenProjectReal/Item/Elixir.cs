@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class LevelUpScreen : GameScreen
+    class Elixir : Item
     {
-
-        public void IncreaseStat()
-        {
-
-        }
-
+        //If Health or Mana is low
+        //Restore Health and Mana to Full
     }
 }

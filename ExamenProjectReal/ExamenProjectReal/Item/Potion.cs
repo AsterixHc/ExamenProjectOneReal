@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class StatUp : Item
+    class Potion : Item
     {
+        //If Player Health is not Full
+        //Increase Player Health by 20
     }
 }

@@ -26,11 +26,6 @@ namespace ExamenProjectReal
 
         }
 
-        public void UnloadContent()
-        {
-
-        }
-
         public void Update(GameTime gameTime)
         {
 

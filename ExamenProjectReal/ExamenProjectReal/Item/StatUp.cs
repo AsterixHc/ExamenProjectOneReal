@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class DemonFlower : Characters
+    class StatUp : Item
     {
+        //Increasing stats (To be determined)
     }
 }

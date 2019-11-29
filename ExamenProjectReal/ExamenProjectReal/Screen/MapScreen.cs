@@ -11,7 +11,7 @@ namespace ExamenProjectReal
 
         public void StartEncounter()
         {
-
+            //Select Encounter using Mouse/Keyboard
         }
 
     }
