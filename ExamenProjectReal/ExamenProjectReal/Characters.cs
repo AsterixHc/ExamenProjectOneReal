@@ -34,17 +34,17 @@ namespace ExamenProjectReal
         
         public virtual void Flee()
         {
-
+            Console.WriteLine("Im Escaping Battle");
         }
 
         public virtual void UseItem(Item item)
         {
-
+            Console.WriteLine("I Used an Item");
         }
 
         public virtual void LevelUp()
         {
-
+            Console.WriteLine("I leveled up");
         }
     }
 }
