@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    interface IPlayable
+    class StatUp
     {
+        //Increasing stats (To be determined)
     }
 }

@@ -41,27 +41,35 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Antidote.cs" />
-    <Compile Include="Bat.cs" />
+    <Compile Include="Item\Antidote.cs" />
+    <Compile Include="Creatures\Bat.cs" />
+    <Compile Include="Screen\BattleScreen.cs" />
     <Compile Include="Characters.cs" />
-    <Compile Include="DemonFlower.cs" />
-    <Compile Include="Elixir.cs" />
+    <Compile Include="Creatures\DemonFlower.cs" />
+    <Compile Include="Item\Elixir.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="Screen\GameScreen.cs" />
     <Compile Include="GameWorld.cs" />
-    <Compile Include="Hayo.cs" />
-    <Compile Include="Hornet.cs" />
-    <Compile Include="IPlayable.cs" />
+    <Compile Include="Creatures\Hayo.cs" />
+    <Compile Include="Creatures\Hornet.cs" />
     <Compile Include="Item.cs" />
-    <Compile Include="Mage.cs" />
-    <Compile Include="PhoenixDown.cs" />
-    <Compile Include="Potion.cs" />
+    <Compile Include="Screen\LevelUpScreen.cs" />
+    <Compile Include="Playable Characters\Mage.cs" />
+    <Compile Include="Screen\MapScreen.cs" />
+    <Compile Include="Screen\MenuScreen.cs" />
+    <Compile Include="Item\PhoenixDown.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Item\Potion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Remedy.cs" />
-    <Compile Include="Rogue.cs" />
-    <Compile Include="Sangshi.cs" />
-    <Compile Include="Scorpion.cs" />
-    <Compile Include="StatUp.cs" />
-    <Compile Include="Warrior.cs" />
+    <Compile Include="Item\Remedy.cs" />
+    <Compile Include="Playable Characters\Rogue.cs" />
+    <Compile Include="Creatures\Sangshi.cs" />
+    <Compile Include="Creatures\Scorpion.cs" />
+    <Compile Include="ScreenManager.cs" />
+    <Compile Include="Screen\ShopScreen.cs" />
+    <Compile Include="Item\StatUp.cs" />
+    <Compile Include="Playable Characters\Warrior.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
@@ -77,6 +85,7 @@
     <MonoGameContentReference Include="Content\Content.mgcb" />
     <None Include="app.manifest" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

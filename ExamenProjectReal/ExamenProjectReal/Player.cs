@@ -8,7 +8,18 @@ namespace ExamenProjectReal
 {
     class Player
     {
-        //Hej
-        //bob
+
+        private int gold;
+
+        public void HandleInput()
+        {
+            //Select Battle during Battle Screen
+            ///Select an Action using If statement
+            //Select item to buy during Shop Screen
+
+            //End goal to use mouse input
+            ///Handle mouse input
+        }
+
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class Elixir
+    class Antidote
     {
+        //If Player is Poisened
+        //Remove Poisen
     }
 }
