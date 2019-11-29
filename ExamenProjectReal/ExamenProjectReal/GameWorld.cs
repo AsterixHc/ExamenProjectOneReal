@@ -30,11 +30,12 @@ namespace ExamenProjectReal
         {
             // TODO: Add your initialization logic here
 
-            if(true)
-            {
+            //Change screen size to the value stored in ScreenManager.ScreenDimensions.
+            graphics.PreferredBackBufferWidth = (int)ScreenManager.ScreenDimensions.X;
+            graphics.PreferredBackBufferHeight = (int)ScreenManager.ScreenDimensions.Y;
+            graphics.ApplyChanges();
 
-            }
-
+            ScreenManager.Initialize();
             base.Initialize();
         }
 
@@ -48,6 +49,9 @@ namespace ExamenProjectReal
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+
+            //Load the content of the initial game screen.
+            ScreenManager.LoadContent(Content);
         }
 
         /// <summary>
@@ -57,6 +61,9 @@ namespace ExamenProjectReal
         protected override void UnloadContent()
         {
             // TODO: Unload any non ContentManager content here
+
+            //Unload the content of the last game screen.
+            ScreenManager.UnloadContent();
         }
 
         /// <summary>
@@ -83,6 +90,9 @@ namespace ExamenProjectReal
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            ScreenManager.Draw(spriteBatch);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }

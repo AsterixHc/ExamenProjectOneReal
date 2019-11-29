@@ -12,7 +12,7 @@ namespace ExamenProjectReal
 {
     abstract class GameScreen
     {
-
+        //Local ContentManager, unique to each GameScreen object, that handles its content.
         protected ContentManager gameScreenContent;
 
 
@@ -21,17 +21,26 @@ namespace ExamenProjectReal
 
         }
 
-        public void LoadContent(ContentManager content)
+        public virtual void LoadContent()
+        {
+            //Refers gameScreenContent to ScreenManager's ServiceProvider, and sets the root directory.
+            gameScreenContent = new ContentManager(ScreenManager.ContentManager.ServiceProvider, "Content");
+        }
+
+        /// <summary>
+        /// Is to be called for each instance of GameScreen when that instance is no longer in use. Unloads the content of GameScreen.
+        /// </summary>
+        public virtual void UnloadContent()
+        {
+            gameScreenContent.Unload();
+        }
+
+        public virtual void Update(GameTime gameTime)
         {
 
         }
 
-        public void Update(GameTime gameTime)
-        {
-
-        }
-
-        public void Draw(SpriteBatch spriteBatch)
+        public virtual void Draw(SpriteBatch spriteBatch)
         {
 
         }
