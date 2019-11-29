@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class DemonFlower : Characters
+    class LevelUpScreen : GameScreen
     {
+
+        public void IncreaseStat()
+        {
+            //Select Stats to Increase
+        }
+
     }
 }

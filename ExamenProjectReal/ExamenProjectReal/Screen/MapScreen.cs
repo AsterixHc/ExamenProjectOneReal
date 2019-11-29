@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class StatUp : Item
+    class MapScreen : GameScreen
     {
+
+        public void StartEncounter()
+        {
+            //Select Encounter using Mouse/Keyboard
+        }
+
     }
 }

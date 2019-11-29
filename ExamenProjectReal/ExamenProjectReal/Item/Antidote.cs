@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class PhoenixDown : Item
+    class Antidote : Item
     {
-
-        //Set player == alive
-        //Set Health to 40
-
+        //If Player is Poisened
+        //Remove Poisen
     }
 }

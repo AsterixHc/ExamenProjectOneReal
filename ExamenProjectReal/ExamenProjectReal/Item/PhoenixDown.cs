@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExamenProjectReal
 {
-    class ShopScreen: GameScreen
+    class PhoenixDown : Item
     {
-
-        public void PurchaseItem()
-        {
-
-        }
-
+        //If Player is dead
+        //Revive Player at 40% Health
     }
 }
